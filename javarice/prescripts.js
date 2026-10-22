@@ -92,7 +92,8 @@ const things = [
   "umbrella", "key", "glass of water", "paper bag", "coin",
   "book", "candle", "shoelace", "spoon", "notebook",
   "chair", "mirror", "clock", "apple", "scarf",
-  "button", "ticket", "pen", "plant", "envelope"
+  "button", "ticket", "pen", "plant", "envelope",
+  "pentab", "Laptop", "Spoon", "paper", "mouse"
 ];
 
 const dirs = ["north", "east", "south", "west", "left", "right"];

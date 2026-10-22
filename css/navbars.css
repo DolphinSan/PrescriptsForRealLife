@@ -65,3 +65,16 @@
     width: 30px;
     height: 30px;
 }
+
+@media (max-width: 600px) {
+    #navbar {
+        gap: 8px;
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    #navbar button {
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+}
