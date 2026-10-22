@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
+    padding-left: 20px;
     gap: 40px;
     background: rgba(15, 15, 15, 0.85);
     backdrop-filter: blur(4px);
