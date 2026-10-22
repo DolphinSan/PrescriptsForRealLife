@@ -18,9 +18,12 @@ const charS4 = "ABCDEF@HIJLM%defgh*iqrxyz0123456789";
 
 //A bunch of random variables to track state,
 //Don't be cheating now
-let achieved = 0;
-let failed = 0;
-let total = 0;
+// Challenge States stored or initialized
+let achieved = parseInt(localStorage.getItem("city_achieved")) || 0;
+let failed = parseInt(localStorage.getItem("city_failed")) || 0;
+let total = parseInt(localStorage.getItem("city_total")) || 0;
+let remainingChances = parseInt(localStorage.getItem("city_chances")) !== NaN ? parseInt(localStorage.getItem("city_chances")) : 3;
+
 let canResolve = false;
 let clickCount = 0;
 let activeScrambleId = 0;
