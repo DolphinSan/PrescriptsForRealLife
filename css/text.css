@@ -16,7 +16,8 @@
 
 @media (max-width: 600px) {
     #scrambleText {
-        font-size: 7px;
+        font-size: 9px;
         letter-spacing: 1px;
+        padding-left: 10;
     }
 }
