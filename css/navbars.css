@@ -8,9 +8,9 @@
     gap: 30px;
     align-items: center;
     justify-content: center;
-    
+
 }
-    
+
 #navbar button {
     background: none;
     border: none;
@@ -24,7 +24,7 @@
     0 0 20px rgba(153, 237, 255, 0.5),
     0 0 40px rgba(0, 183, 235, 0.3);
 }
-    
+
 #navbar button:hover {
     opacity: 0.7;
 }
@@ -41,7 +41,7 @@
     background: rgba(15, 15, 15, 0.85);
     backdrop-filter: blur(4px);
     z-index: 10
-    
+
 }
 .navItem {
     display: flex;

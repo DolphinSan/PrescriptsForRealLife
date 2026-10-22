@@ -6,13 +6,16 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #0f0f0f;
     color: #99caff;
     font-family: "code", monospace;
+    overflow-x: hidden;
+    position: relative;
+    box-sizing: border-box;
 }
 #imageHolder {
     position: absolute;
